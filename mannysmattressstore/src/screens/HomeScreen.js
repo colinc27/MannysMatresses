@@ -1,10 +1,12 @@
 import React from "react";
 import CarouselImg from "../components/Carousel";
+import items from "../data";
 
 const HomeScreen = () => {
+  console.log(items, "homescreen");
   return (
     <div>
-      <CarouselImg></CarouselImg>
+      <CarouselImg items={items.bella}></CarouselImg>
     </div>
   );
 };

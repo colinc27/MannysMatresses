@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import image001 from "../img/image001.gif";
+import BellaSleep from "../img/BellaSleep.jpg";
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand href="/">
-              <img src={image001}></img>
+              <img className="navImg" src={BellaSleep}></img>
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

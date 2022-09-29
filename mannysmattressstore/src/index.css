@@ -6,6 +6,12 @@ h3 {
   padding: 1rem 0;
 }
 
-.nutPieChart {
-  height: 20px;
+.footList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navImg {
+  height: 100px;
+  width: 200px;
 }

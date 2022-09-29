@@ -1,15 +1,14 @@
 import React from "react";
 import CarouselBody from "../components/CarouselBody";
+import { Container, Col, Row } from "react-bootstrap";
 import items from "../data";
 
 const HomeScreen = () => {
   return (
-    <div className="text-center">
+    <Container className="text-center p-3 justify-content-center">
       <h1>Best sellers</h1>
-      <div>
-        <CarouselBody items={items} />
-      </div>
-    </div>
+      <CarouselBody items={items} />
+    </Container>
   );
 };
 

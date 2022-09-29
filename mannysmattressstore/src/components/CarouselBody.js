@@ -1,20 +1,21 @@
 import React from "react";
-import { Carousel, ListGroup } from "react-bootstrap";
-import CarouselItem from "./CarouselItem";
+import { Carousel } from "react-bootstrap";
 
 const CarouselBody = ({ items }) => {
   return (
-    <Carousel fade>
-      {items.map((items) => (
-        <Carousel.Item key={items._id}>
-          <img className="d-block w-100" src={items.image} alt="First slide" />
-          <Carousel.Caption>
-            <h3>{`${items.name}`}</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      ))}
-    </Carousel>
+    <div className="text-center">
+      <Carousel fade className="carouselImage">
+        {items.map((items) => (
+          <Carousel.Item key={items._id}>
+            <img className="d-block w-100" src={items.image} alt={items.alt} />
+            <Carousel.Caption>
+              {/* <h3>{`${items.name}`}</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </div>
   );
 };
 

@@ -9,8 +9,13 @@ const Header = () => {
       <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand href="/">
-              <img className="navImg" src={BellaSleep}></img>
+            <Navbar.Brand href="/" className="text-center">
+              <img
+                className="navImg"
+                src={BellaSleep}
+                alt="Bella Sleep Logo"
+              ></img>
+              {/* <h5 className="text-warning">BellaSleep Inc</h5> */}
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

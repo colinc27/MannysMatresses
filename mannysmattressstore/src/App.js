@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Header />
       <main>
-        <Container>
+        <Container className="d-flex justify-content-center text-center">
           <Routes>
             <Route path="/" element={<HomeScreen />} />
           </Routes>

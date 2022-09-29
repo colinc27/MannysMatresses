@@ -1,12 +1,14 @@
 import React from "react";
-import CarouselImg from "../components/Carousel";
+import CarouselBody from "../components/CarouselBody";
 import items from "../data";
 
 const HomeScreen = () => {
-  console.log(items, "homescreen");
   return (
-    <div>
-      <CarouselImg items={items.bella}></CarouselImg>
+    <div className="text-center">
+      <h1>Best sellers</h1>
+      <div>
+        <CarouselBody items={items} />
+      </div>
     </div>
   );
 };

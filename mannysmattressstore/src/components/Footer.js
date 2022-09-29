@@ -9,11 +9,11 @@ const Footer = () => {
           <Col className="text-center py-3 " md={12} lg={6}>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11823.275366758236!2d-88.12977696044928!3d42.19694080000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fa15befb0970f%3A0x439608043b2fff0e!2sBella%20Sleep%2C%20Inc.!5e0!3m2!1sen!2sus!4v1664378481473!5m2!1sen!2sus"
-              allowfullscreen=""
+              allowFullScreen=""
               height="400px"
               width="100%"
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </Col>
           <Col className="py-3 text-white" sm={12} lg={6}>

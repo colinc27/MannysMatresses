@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
+import img from "../img";
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
-  )
-}
+    <Container className="">
+      <Row className="">
+        {img.map((img) => (
+          <Col key={img._id} className="galImage">
+            <img className="galImage py-4" src={img.img} />
+          </Col>
+        ))}
+      </Row>
+    </Container>
+  );
+};
 
-export default Gallery
+export default Gallery;

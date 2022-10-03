@@ -66,3 +66,10 @@ a.github {
 a.atsign {
   color: red;
 }
+
+.galImage {
+  max-height: 400px;
+  width: auto;
+  object-fit: contain;
+  /* overflow: visible; */
+}

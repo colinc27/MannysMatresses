@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomeScreen from "./screens/HomeScreen";
 import ContactForm from "./components/ContactForm";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomeScreen />} />
             <Route path="/contact" element={<ContactForm />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </Container>
       </main>

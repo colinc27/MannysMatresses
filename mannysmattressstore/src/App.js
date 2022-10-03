@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomeScreen from "./screens/HomeScreen";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Container className="d-flex justify-content-center text-center">
           <Routes>
             <Route path="/" element={<HomeScreen />} />
+            <Route path="/contact" element={<ContactForm />} />
           </Routes>
         </Container>
       </main>

@@ -11,13 +11,17 @@ const Header = () => {
           <LinkContainer to="/">
             <Navbar.Brand href="/" className="text-center">
               <img
-                className="navImg"
+                className="navImg border border-warning rounded"
                 src={BellaSleep}
                 alt="Bella Sleep Logo"
               ></img>
               {/* <h5 className="text-warning">BellaSleep Inc</h5> */}
             </Navbar.Brand>
           </LinkContainer>
+          <div className="text-center">
+            <h1 className="text-warning">Bella Sleep Inc.</h1>
+          </div>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

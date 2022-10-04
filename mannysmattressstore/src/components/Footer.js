@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row, ListGroup } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import Social from "./Socials";
 
 const Footer = () => {
@@ -14,6 +14,7 @@ const Footer = () => {
               height="400px"
               width="100%"
               loading="lazy"
+              title="Map"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </Col>

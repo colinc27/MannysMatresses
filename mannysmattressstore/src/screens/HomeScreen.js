@@ -1,6 +1,6 @@
 import React from "react";
 import CarouselBody from "../components/CarouselBody";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import items from "../data";
 
 const HomeScreen = () => {

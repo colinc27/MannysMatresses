@@ -46,9 +46,9 @@ const ContactForm = () => {
   };
 
   return (
-    <Container className="text-center m-auto py-2">
+    <Container className="text-center py-2">
       <Row>
-        <Col lg={6}>
+        <Col lg={6} className="m-auto">
           <h5 class="text-center">
             Please fill out the following form if you would like more
             information on our mattress selection

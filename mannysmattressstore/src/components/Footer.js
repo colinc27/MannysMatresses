@@ -4,7 +4,7 @@ import Social from "./Socials";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary">
+    <footer className="bg-primary ">
       <Container className="">
         <Row>
           <Col className="text-center py-3 " md={6}>

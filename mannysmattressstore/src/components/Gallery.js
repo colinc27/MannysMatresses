@@ -8,7 +8,7 @@ const Gallery = () => {
       <Row className="">
         {img.map((img) => (
           <Col key={img._id} className="galImage">
-            <img className="galImage py-4" src={img.img} alt="matress" />
+            <img className="galImage py-4" src={img.img} alt="mattress" />
           </Col>
         ))}
       </Row>

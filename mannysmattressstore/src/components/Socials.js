@@ -15,7 +15,7 @@ function Social() {
         <Row className="social-container text-center" lg={6}>
           <Col>
             <a
-              href="https://www.facebook.com/colin.christoph/"
+              href="https://www.facebook.com/Bella-Sleep-Inc-109152968579810"
               className="facebook social"
             >
               <FontAwesomeIcon icon={faFacebook} size="2x" />

@@ -13,7 +13,7 @@ const HomeScreen = () => {
       <CarouselBody items={items} />
       <h5 className="py-3">
         We have Serta and Beautyrest matresses at the best prices! Come stop by
-        and see our inventory in Lake Zurich, IL
+        and see our inventory.
       </h5>
     </Container>
   );

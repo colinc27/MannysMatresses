@@ -52,7 +52,11 @@ const Footer = () => {
                 <strong>Contact Information</strong>
                 <ul className="footList">
                   <li className="py-1">
-                    <strong>(847)-320-1697</strong>
+                    <strong className="">
+                      <a href="tel:8473201697" className="text-warning">
+                        (847)-320-1697
+                      </a>
+                    </strong>
                   </li>
                   <li className="py-1">
                     <strong>bellasleep@myyahoo.com</strong>

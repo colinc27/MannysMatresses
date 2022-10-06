@@ -25,12 +25,6 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 670px) {
-  div.social-container {
-    display: none !important;
-  }
-}
-
 .social-container {
   justify-content: center;
 }

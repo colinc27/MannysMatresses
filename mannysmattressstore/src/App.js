@@ -6,6 +6,9 @@ import Footer from "./components/Footer";
 import HomeScreen from "./screens/HomeScreen";
 import ContactForm from "./components/ContactForm";
 import Gallery from "./components/Gallery";
+import ReactGA from "react-ga";
+const TRACKING_ID = "G-M26DE9M2H4"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (

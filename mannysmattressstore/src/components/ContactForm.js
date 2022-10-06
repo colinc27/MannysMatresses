@@ -3,8 +3,10 @@ import emailjs from "emailjs-com";
 import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
+import useAnalyticsEventTracker from "../GA/GA";
 
 const ContactForm = () => {
+  // State controls stat
   const [values, setValues] = useState({
     name: "",
     email: "",
@@ -16,9 +18,10 @@ const ContactForm = () => {
       setValues((oldValues) => ({ ...oldValues, [name]: value }));
     };
   };
+  //State Controls end
 
+  const gaEventTracker = useAnalyticsEventTracker("Contact Form Sent");
   const [show, setShow] = useState(false);
-
   const handleClose = () => navigate("/");
   const handleShow = () => setShow(true);
 
@@ -42,7 +45,8 @@ const ContactForm = () => {
           console.log(error.text);
         }
       )
-      .then(handleShow());
+      .then(handleShow())
+      .then(gaEventTracker("Contact Form Submitted"));
   };
 
   return (
